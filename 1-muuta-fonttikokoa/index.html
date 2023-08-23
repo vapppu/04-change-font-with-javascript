@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <main>
+      <body>
+        <h1>Muuta fonttikokoa JavaScriptillä</h1>
+        <p>Huom! Kaikki muutokset tapahtuvat JavaScriptin avulla.</p>
+        <p>
+          Listan fonttikokoa muutetaan alla olevaa painonappia painamalla. Listan
+          oletusfonttikoko on 16px.
+        </p>
+        <h2>Tämän listan fonttikoko muuttuu napista painamalla.</h2>
+        <ol id="font-size-list">
+          <li>Ensimmäinen napin painallus muuttaa fonttikooksi 20px</li>
+          <li>Toinen napin painallus muuttaa fonttikooksi 24px</li>
+          <li>Kolmas napin painallus muuttaa fonttikooksi 28px</li>
+          <li>Neljäs napin painallus muuttaa fonttikooksi 32px</li>
+          <li>Viides napin painallus muuttaa fonttikooksi 16px</li>
+        </ol>
+        <section class="font-info">
+          <button id="font-size-button">Fontin koko</button>
+          <p>Fonttikoko on nyt: <span id="current-size"></span></p>
+        </section>
+        
+  </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

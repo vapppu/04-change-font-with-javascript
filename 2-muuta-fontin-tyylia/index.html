@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze&family=Mansalva&family=Roboto&family=Turret+Road&display=swap" rel="stylesheet">
+  </head>
+  <main>
+      <body>
+        <h1>Muuta fonttityyppiä JavaScriptillä</h1>
+        <p>Huom! Kaikki muutokset tapahtuvat JavaScriptin avulla.</p>
+        <p>
+          Listan fonttityyppiä muutetaan alla olevaa painonappia painamalla. Listan
+          oletusfontti on "Courier New", fonttikoko 16px.
+        </p>
+        <p class="italic">Mutta mitä tapahtuu, jos painat nappia 10 kertaa?</p>
+        <h2>Tämän listan fonttikoko muuttuu napista painamalla.</h2>
+        <ol id="font-size-list">
+          <li>Ensimmäinen napin painallus muuttaa fonttityypiksi "Roboto"</li>
+          <li>Toinen napin painallus muuttaa fonttityypiksi "Mansalva" <span class="style"></span></li>
+          <li>Kolmas napin painallus muuttaa fonttityypiksi "Grenze"<span class="style"></span></li>
+          <li>Neljäs napin painallus muuttaa fonttityypiksi "Turret Road"<span class="style"></span></li>
+          <li>Viides napin painallus palauttaa fonttityypin "Courier New"<span class="style"></span></li>
+        </ol>
+        <section class="font-info">
+          <button id="font-style-button">Muuta fontti</button>
+          <p>Fontti on nyt: <span id="current-style"></span></p>
+        </section>
+  </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
